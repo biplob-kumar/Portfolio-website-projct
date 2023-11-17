@@ -17,3 +17,5 @@ const filterCards = (e) => {
 }
 
 filterButtons.forEach(button => button.addEventListener("click", filterCards));
+
+

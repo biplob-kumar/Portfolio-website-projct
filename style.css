@@ -1,6 +1,10 @@
 /* Import Google font - Poppins */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 
+
+
+
+
 * {
   font-family: "Poppins", sans-serif;
 }
@@ -22,6 +26,7 @@ body .container {
 }
 
 #filter-buttons button:hover {
+  font-weight: 500;
   background: #ddd;
 }
 
@@ -39,10 +44,17 @@ body .container {
 #filterable-cards .card.hide {
   display: none;
 }
-
-.links{
+.card{
+  transition: .4s ease-in-out;
+}
+.card img::before{
+  content: "";
+  top: 0;
+  left: 0;
+  background-color: #6c757d;
 
 }
+
 .links i{
   color: coral;
   font-size: 2rem;
