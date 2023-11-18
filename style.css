@@ -21,15 +21,12 @@
 }
 
 
-
-
 * {
   font-family: "Poppins", sans-serif;
 }
 
 body {
-  background: rgb(63,94,251);
-  background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(133,129,187,1) 49%, rgba(252,192,70,1) 100%);
+background: rgb(75, 74, 74) !important;
 }
 
 body .container {
