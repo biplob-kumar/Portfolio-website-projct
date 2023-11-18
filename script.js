@@ -19,3 +19,22 @@ const filterCards = (e) => {
 filterButtons.forEach(button => button.addEventListener("click", filterCards));
 
 
+
+//  button 
+
+
+// let loadMoreBtn = document.querySelector('#load-more');
+// let currentItem = 21;
+
+// loadMoreBtn.onclick = () =>{
+//    for (var i = currentItem; i < currentItem + 3; i++){
+//       loadMoreBtn.style.display = 'inline-block';
+//    }
+//    currentItem += 3;
+
+//    if(currentItem >= boxes.length){
+//       loadMoreBtn.style.display = 'none';
+//    }
+// }
+
+

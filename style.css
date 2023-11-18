@@ -3,6 +3,24 @@
 
 
 
+#load-more{
+  margin-top: 20px;
+  display: inline-block;
+  padding:13px 30px;
+  border:1px solid #334;
+  color:#334;
+  font-size: 16px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+#load-more:hover{
+  background-color:coral;
+  border-color: rgb(160, 154, 154);
+  color:#fff;
+}
+
+
 
 
 * {
